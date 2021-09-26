@@ -1,0 +1,34 @@
+# The directory Mix will write compiled artifacts to.
+/my_app/_build/
+
+# If you run "mix test --cover", coverage assets end up here.
+/my_app/cover/
+
+# The directory Mix downloads your dependencies sources to.
+/my_app/deps/
+
+# Where 3rd-party dependencies like ExDoc output generated docs.
+/my_app/doc/
+
+# Ignore .fetch files in case you like to edit your project deps locally.
+/my_app/.fetch
+
+# If the VM crashes, it generates a dump, let's ignore it too.
+/my_app/erl_crash.dump
+
+# Also ignore archive artifacts (built via "mix archive.build").
+*.ez
+
+# Ignore package tarball (built via "mix hex.build").
+/my_app/my_app-*.tar
+
+# If NPM crashes, it generates a log, let's ignore it too.
+/my_app/npm-debug.log
+
+# The directory NPM downloads your dependencies sources to.
+/my_app/assets/node_modules/
+
+# Since we are building assets from assets/,
+# we ignore priv/static. You may want to comment
+# this depending on your deployment strategy.
+/my_app/priv/static/
